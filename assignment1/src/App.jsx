@@ -23,7 +23,7 @@ function App() {
         description="Loves working with machine learning and big data."
       />
         <ProfileCard
-        name="Alan Mathew"
+        name="Levi Ackerman"
         img="./src/assets/images/levi.jpeg"
         description="Passionate about MERN stack development and problem solving."
       />

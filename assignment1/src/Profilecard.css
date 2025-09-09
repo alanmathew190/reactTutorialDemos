@@ -2,7 +2,7 @@
     background-color: rgb(197, 197, 197);
     width: 230px;
     padding: 10px;
-
+    box-shadow: 1px 1px 10px 1px;
 }
 .card-container{
     display: flex;
