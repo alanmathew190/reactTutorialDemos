@@ -4,10 +4,26 @@ import ProfileCard from './components/ProfileCard'
 import './Profilecard.css'
 
 function App() {
-
+  let persons = [
+    {
+      name: "Alan Mathew",
+        img:"./src/assets/images/tom.jpeg",
+        description:"Passionate about MERN stack development and problem solving."
+  },
+    {
+      name: "Sarah Johnson",
+        img:"./src/assets/images/girl.jpeg",
+        description:"Designs user-friendly interfaces with creative solutions."
+    },
+    {
+      name: "Levi Ackerman",
+      img: "./src/assets/images/levi.jpeg",
+      description: "Passionate about MERN stack development and problem solving."
+    }]
   return (
     <div className="card-container">
-    <ProfileCard
+      <ProfileCard persons={persons } />
+    {/* <ProfileCard
         name="Alan Mathew"
         img="./src/assets/images/tom.jpeg"
         description="Passionate about MERN stack development and problem solving."
@@ -26,7 +42,7 @@ function App() {
         name="Levi Ackerman"
         img="./src/assets/images/levi.jpeg"
         description="Passionate about MERN stack development and problem solving."
-      />
+      /> */}
       </div>
   )
 }
