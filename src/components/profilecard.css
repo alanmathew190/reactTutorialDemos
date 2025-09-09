@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.profile{
+    display: flex;
+    margin-top:170px;
+    width: 100%;
+    margin-left: -20px;
+}
+img{
+    width: 60%;
+    height: 50%;
+    border-radius: 50%;
+}
+.profilecard{
+    padding-top: 20px;
+    margin-left: 50px;
+        background-color: rgb(133, 7, 83);
+        box-shadow: 2px 2px 2px 2px ;
+}
+.profilecard:hover{
+    transform: scale(1.04);
+    transition: .5s;
+}
